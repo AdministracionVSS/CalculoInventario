@@ -90,7 +90,7 @@ report 86900 "Calc. Inventario"
                                 CalcInv."Ubicación" := Ubicacion;
                                 CalcInv.lote := MovProd."Lot No.";
                                 CalcInv.Coste := Prod."Unit Cost";
-                                //CalcInv."Fecha caducidad" := MovProd."Expiration Date";
+                                CalcInv."Fecha caducidad" := MovProd."Expiration Date";
                                 CalcInv."Unidad medida" := Prod."Base Unit of Measure";
                                 CalcInv."Cantidad stock" := MovProd."Remaining Quantity";
                                 // CalcInv."Cantidad real" := CalcInv."Cantidad stock";
