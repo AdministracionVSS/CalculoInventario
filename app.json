@@ -1,7 +1,7 @@
 {
   "id": "c43924a0-25e0-4369-a17b-90d48d31afa6",
   "name": "CalculoInventario",
-  "publisher": "Default Publisher",
+  "publisher": "VSSistemas",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -16,13 +16,13 @@
   "application": "28.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 86900,
+      "to": 86999
     }
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": true,
+    "allowDownloadingSource": false,
     "includeSourceInSymbolFile": true
   },
   "runtime": "17.0",
